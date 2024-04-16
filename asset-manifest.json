@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/clgdunia_table/static/css/main.727c7f4f.css",
-    "main.js": "/clgdunia_table/static/js/main.7668b394.js",
+    "main.css": "/clgdunia_table/static/css/main.5a072d3d.css",
+    "main.js": "/clgdunia_table/static/js/main.69595ceb.js",
     "static/media/iit.png": "/clgdunia_table/static/media/iit.5f51760c2639d489dab4.png",
     "index.html": "/clgdunia_table/index.html",
-    "main.727c7f4f.css.map": "/clgdunia_table/static/css/main.727c7f4f.css.map",
-    "main.7668b394.js.map": "/clgdunia_table/static/js/main.7668b394.js.map"
+    "main.5a072d3d.css.map": "/clgdunia_table/static/css/main.5a072d3d.css.map",
+    "main.69595ceb.js.map": "/clgdunia_table/static/js/main.69595ceb.js.map"
   },
   "entrypoints": [
-    "static/css/main.727c7f4f.css",
-    "static/js/main.7668b394.js"
+    "static/css/main.5a072d3d.css",
+    "static/js/main.69595ceb.js"
   ]
 }
