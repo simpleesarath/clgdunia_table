@@ -1,0 +1,52 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: bisque;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+h1{
+  text-align: left;
+  padding:10px;
+}
+tbody tr td{
+
+  min-height:10vh ;
+  
+}
+td img{
+  width: 35px;
+  height: 35px;
+  margin:auto ;
+}
+h3{
+  color:green;
+}
+.college{
+  background-color: red   !important;
+  color: cyan;
+}
+.all-btns {
+  padding: 4px 10px; 
+  margin:5px;
+  display:felx;
+  justify-content: space-between;
+  font-size: 2px; 
+
+}
+
+.tab{
+  width:85vw;
+  align-items: center;
+  text-align: center;
+  margin:auto;
+  padding: 10px;
+  /* border: 2px solid #000; */
+}

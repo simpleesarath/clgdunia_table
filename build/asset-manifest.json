@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/clgdunia_table/static/css/main.c219342e.css",
+    "main.js": "/clgdunia_table/static/js/main.cbe38aa6.js",
+    "static/media/iit.png": "/clgdunia_table/static/media/iit.5f51760c2639d489dab4.png",
+    "index.html": "/clgdunia_table/index.html",
+    "main.c219342e.css.map": "/clgdunia_table/static/css/main.c219342e.css.map",
+    "main.cbe38aa6.js.map": "/clgdunia_table/static/js/main.cbe38aa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c219342e.css",
+    "static/js/main.cbe38aa6.js"
+  ]
+}
