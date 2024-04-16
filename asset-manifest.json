@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/clgduna-table/static/css/main.c219342e.css",
+    "main.js": "/clgduna-table/static/js/main.470c8515.js",
+    "static/media/iit.png": "/clgduna-table/static/media/iit.5f51760c2639d489dab4.png",
+    "index.html": "/clgduna-table/index.html",
+    "main.c219342e.css.map": "/clgduna-table/static/css/main.c219342e.css.map",
+    "main.470c8515.js.map": "/clgduna-table/static/js/main.470c8515.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c219342e.css",
+    "static/js/main.470c8515.js"
+  ]
+}
