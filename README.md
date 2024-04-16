@@ -2,9 +2,11 @@
 
 This project was bootstrapped styling and its abt a tables a data that fetches a clg data from object(clgdata).its consists multiple clg data and it also fetches data if the data is matched on search  
 
-![Screenshot 2024-04-16 160433](https://github.com/simpleesarath/clgdunia_table/assets/88574803/72161b23-a729-4f54-801f-218216eb88fb)
+![Screenshot 2024-04-16 172805](https://github.com/simpleesarath/clgdunia_table/assets/88574803/9481c2f5-0f17-4630-a76d-b05bcc804b58)
 
-**deployed link**:https://github.com/simpleesarath/clgdunia_table
+
+
+**deployed link**:https://simpleesarath.github.io/clgdunia_table/
 
 ## Available Scripts
 
