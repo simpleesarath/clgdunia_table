@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import image from './iit.png';
 import clgdata from './clgdata';
+// import Appiled from './Appiled';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -10,6 +11,16 @@ function App() {
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };
+
+  const applied = () =>{
+      alert('Thanks for applying');
+  }
+  const borchure =()=>{
+      alert('downloading borchurer');
+  }
+  const compare =()=>{
+    alert(`comparing`);
+}
 
   const filteredColleges = clgdata.filter(college =>
     college.college.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -35,7 +46,7 @@ function App() {
         </div>
       </div>
       <div className='tab'>
-        <table className='table table-primary table-striped'>
+        <table className='table table-secondary table-bordered border-dark table-striped'>
           <thead className='table-dark'>
             <tr>
               <th>CD Rank</th>
@@ -52,24 +63,29 @@ function App() {
                 key={college.college} 
                 style={{ background: college.college.toLowerCase().includes(searchQuery.toLowerCase()) ? 'red' : 'transparent' }}
               >
-                <td>{college.cdrank}</td>
-                <td>
+                <td>#.{college.cdrank}</td>
+                <td className='college'>
                   <img src={image} alt="college logo" />
-                  {college.college}
+                  <b>{college.college}</b>
                   <div className='btns all-btns'>
-                    <button className='btn btn-primary btn-sm'>Apply now</button>
-                    <button className='btn btn-secondary btn-sm'>Brochure</button>
-                    <button className='btn btn-primary btn-sm'>Add compare</button>
+                    <button className='btn btn-warning btn-sm' onClick={applied}>Apply now</button>
+                    <button className='btn btn-secondary btn-sm' onClick={borchure}>Brochure</button>
+                    <button className='btn btn-danger btn-sm' onClick={compare}>Add compare</button>
                   </div>
                 </td>
-                <td>${college.coursefees}</td>
+                <td><h3>${college.coursefees}</h3>
+                    <ul><li>for BE/B.Tech</li></ul>
+                </td>
                 <td>
                   <div>avg salary: <h3>${college.placements.avgplacements}</h3></div>
                   <div>highest salary:<h3>${college.placements.highestplacements}</h3></div>
                   
                 </td>
-                <td>{college.userreviews}</td>
-                <td>{college.ranking}rd</td>
+                <td>
+                  <li>{college.userreviews.rating}/10</li>
+                  <li>{college.userreviews.review}</li>
+                </td>
+                <td>{college.ranking}</td>
               </tr>
             ))}
           </tbody>
